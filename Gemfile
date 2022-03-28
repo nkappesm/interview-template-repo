@@ -1,23 +1,28 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.0'
+ruby '2.7.3'
 
-gem 'rails', '~> 5.2.3'
-gem 'pg'
-gem 'puma', '~> 3.11'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.2'
-gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+gem 'awesome_print'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'dotenv-rails', '~> 2.7.5'
+gem 'jbuilder', '~> 2.5'
+gem 'jquery-rails'
+gem 'pg', '>= 0.18', '< 2.0'
+gem 'puma', '~> 3.11'
+gem 'rails', '~> 5.2.3'
+gem 'sass-rails', '~> 5.0'
 gem 'sidekiq'
+gem 'turbolinks', '~> 5'
 gem 'typhoeus'
-gem 'dotenv'
+gem 'uglifier', '>= 1.3.0'
+
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rubocop'
+  gem 'rubocop-rails'
+  gem 'rubocop-rspec'
 end
 
 group :development do
