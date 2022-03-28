@@ -13,4 +13,10 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery
+//= require datatables.net/js/jquery.dataTables
+//= require datatables.net-bs/js/dataTables.bootstrap
+//= require bootstrap
+//= require jasny-bootstrap.min
 //= require_tree .
+

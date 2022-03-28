@@ -5,7 +5,9 @@ ruby '2.7.3'
 
 gem 'awesome_print'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'dotenv-rails', '~> 2.7.5'
+gem 'jasny-bootstrap-rails', '~> 3.1.3'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'pg', '>= 0.18', '< 2.0'

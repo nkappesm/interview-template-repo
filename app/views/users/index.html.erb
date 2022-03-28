@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-3">
+    <h3 class="text-uppercase col-md-offset-1"><%= t('activerecord.models.user.other')%></h3>
+  </div>
+</div>
+<div class="table-responsive">
+  <table class="table users-datatable display" data-source="<%= users_url(format: 'json') %>">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th><%= t('activerecord.attributes.user.first_name') %></th>
+        <th><%= t('activerecord.attributes.user.last_name') %></th>
+        <th><%= t('activerecord.attributes.user.status') %></th>
+        <th style="width:140px;min-width:140px;max-width:140px;" data-orderable="false"></th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
